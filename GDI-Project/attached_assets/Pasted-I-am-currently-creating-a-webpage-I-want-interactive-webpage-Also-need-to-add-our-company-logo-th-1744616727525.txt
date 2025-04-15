@@ -1,0 +1,49 @@
+I am currently creating a webpage. I want interactive webpage. Also need to add our company logo, the project logo. I have a whole workflow diagram for the steps discussed below and also a diagram for each step. I want, if possible, to the workflow should be interactive if user click on one step it should open windows where necessary information should be available for the step. We currently working on Data Governance framework. The current steps for users or researchers as follow.  Color scheme should be Irish flag. Animation should be apply for webpage and steps.  Details are 
+1.	Data Discovery
+•	The researcher used interface or a webpage which is called in our model is User portal. There should be information about the project. A research bar should be there, where user or researcher search datasets. The user will used keywords, disease types, sample size to search desired dataset. 
+•	The system will used Beacon V2 mechanism to search metadata repository against these search terms to get results. Beacon V2 as a technique where it is used to search data in genomic related datasets. 
+•	Researcher can also used filters by geographic location, data quality, time range to further enhanced the result. 
+•	The research can also check description, attribute and restriction on the datasets. 
+•	Once identify desired dataset the next step will be authentication. 
+2.	Authentication
+•	Authentication is a very important step. It can help us to know the user identity before it request for datasets, it help us to reduce the burden on the system and avoid unnecessary request for dataset, identify violated researcher identify incase in the past the commit some violation. 
+•	The authentication is currently in been discussion, but we have two options 
+•	Life Science login method and eIDS. In life Science we have further three option such as Life Science credentials to login, Institutional based login and third-party such as Google account to login. The eIDS is joint European identification mechanism but I think it is under development. 
+•	However, the researcher can used either method to authenticate themselves. 
+3.	Data Request
+•	Once the researcher successfully authenticate themselves then it can proceed to submit application for datasets. 
+•	Our system will utilize REMS (Resource entitlement Management System) (https://github.com/CSCfi/rems). The researcher can fill data access application and agree to terms and conditions of the datasets as well. 
+•	After filling the application and agree to terms and conditions of the dataset, the researchers will submit the application. The application will be under review until the approval committee make a decision on it. 
+•	Once the application system, it will automatically notify the data owner and the application will go to approval committee.
+4.	Approval Committee
+•	Approval committee is consist of central committee (European committee called DAC) and Irish Committee called (NCP). 
+•	The application will first go to DAC and it will perform the initial checks.
+•	In case the application fill full the requirement and succeed then it will be forward to NCP committee. If the application is rejected then notify the researchers and tell why it rejected. 
+•	NCP will review the application in Irish point of view and check the compliance and other related aspects. If the NCP approve the application then the researcher will be able to perform analysis on the dataset otherwise if rejected then notify the researcher and tell why it rejected. 
+5.	Data Analysis 
+•	After the approval committee approve the application, then the researcher can be able to perform research or analysis on the dataset for a limited duration because of the limited resources and high volume of request. 
+•	Dataset will not be shared or downloadable on the researcher system. However, a trusted research environment will be created virtually called TRE. In the trusted research environment, the system will provide analysis tools such as Galaxy, DataSHIELD and Flower. The researchers can use these tools according to their needs. 
+•	As the datasets will not be shared or transfer but remain on the node, so the researcher method, algorithms will be brought to it. 
+•	The research run their AI, ML, statistical, or scientific method on it and perform data analysis on trusted research environment. 
+•	Once analysis is done then we proceed to results exports section. 
+6.	Result Exports
+•	In order to avoid the researchers from downloading raw data we need to implement strict download mechanism here. 
+•	The results from analysis section will be stored on trusted storage. 
+•	The researchers will used the TRE to access the results but will not download them until approve. 
+•	Approve researchers can download results. 
+•	Some sensitive outputs may required additional approval to download it. 
+•	Possible manual review. 
+•	The researcher will submit an application, where he/she need to tell how the data will be used. Where it will be published, etc.
+•	The result should be published in open access journals. 
+•	Allow export after all the above condition meets. 
+•	Now proceed to access revoked section
+7.	Access Revoked 
+•	Access can be revoked at any stage if violation found. 
+•	Another reason, if the researcher perform analysis and dataset and don’t want further analysis then access will be revoked. 
+•	Another reason, if the researcher did not complete the analysis within a time frame then access will be revoked. 
+•	Also give a option for researchers if they want further analysis on the data. 
+•	Results will be stored for a period of time may be 10 year and then delete. 
+
+
+Further interactive mechanism should be apply for each step. I expend the data discovery step further and details are below:
+“Data Discovery  Interface called User Portal  search functionality  keywords, disease types, sample size, etc  access metadata repository using Beacon V2  Apply filters such as Geographic location, time range, data quality  filter and sort results  view description, attributes and restrictions  view dataset details  mark dataset for data request” Now do for this steps and if I like we can process to further steps. Also we will add a diagram here for data discovery step. So make a room for diagram

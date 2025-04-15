@@ -1,0 +1,7 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="60" rx="4" fill="#f8fafc"/>
+  <text x="10" y="25" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="bold" fill="#1e40af">Data Governance</text>
+  <text x="10" y="45" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#64748b">Framework</text>
+  <path d="M180 15 L190 30 L180 45" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 30 L190 30" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"/>
+</svg>
